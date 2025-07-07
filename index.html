@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="builder-container">
+        <div class="control-panel">
+            <h2>Design Tools</h2>
+            <div class="tool-section">
+                <h3>Body Styles</h3>
+                <label for="bgColor">Background Color:</label>
+                <input type="color" id="bgColor" value="#ffffff">
+                <button id="applyBgColor">Apply Background</button>
+            </div>
+            <div class="tool-section">
+                <h3>Add Elements</h3>
+                <button id="addParagraph">Add Paragraph</button>
+                <button id="addHeading">Add Heading (H1)</button>
+            </div>
+            </div>
+
+        <div class="preview-area">
+            <iframe id="websitePreview" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

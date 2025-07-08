@@ -1,5 +1,5 @@
 // --- Configuration ---
-const BACKEND_URL = 'https://backend-w9br.onrender.com'; // <--- IMPORTANT: Replace with your Render backend URL!
+const BACKEND_URL = 'https://backend-1-r4hc.onrender.com'; // <--- IMPORTANT: Replace with your Render backend URL!
 
 // --- DOM Elements ---
 const websitePreview = document.getElementById('websitePreview');
